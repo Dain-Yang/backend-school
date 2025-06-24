@@ -1,4 +1,4 @@
-package org.example.annotation.general;
+package org.example.annotation.general.override;
 
 public class OverrideMain {
     public static void main(String[] args) {
