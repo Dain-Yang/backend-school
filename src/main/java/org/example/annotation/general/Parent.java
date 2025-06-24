@@ -1,4 +1,4 @@
-package org.example.annotation.general.override;
+package org.example.annotation.general;
 
 public class Parent {
     public void printMessageNotOverride() {
