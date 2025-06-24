@@ -2,9 +2,10 @@ package org.example.annotation.custom;
 
 public class Car {
     private final String model;
-    private final String year;
+    // 1980 ~ 2025
+    private final Integer year;
 
-    public Car(String model, String year) {
+    public Car(String model, int year) {
         this.model = model;
         this.year = year;
     }
@@ -13,7 +14,7 @@ public class Car {
         return model;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 

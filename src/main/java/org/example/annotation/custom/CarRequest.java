@@ -1,10 +1,13 @@
 package org.example.annotation.custom;
 
+import org.example.annotation.custom.annotation.YearRange;
+
 public class CarRequest {
     private final String model;
-    private final String year;
+    @YearRange(min = 2000, max = 2025)
+    private final Integer year;
 
-    public CarRequest(String model, String year) {
+    public CarRequest(String model, int year) {
         this.model = model;
         this.year = year;
     }
@@ -13,7 +16,7 @@ public class CarRequest {
         return model;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 }
