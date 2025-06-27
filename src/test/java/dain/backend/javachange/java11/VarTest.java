@@ -31,6 +31,5 @@ public class VarTest {
     }
 
     record Mouse(String name, int price) {
-
     }
 }
